@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2012 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="rss" unicode="&#xe800;" d="M184 93c0-51-43-91-93-91s-91 40-91 91c0 50 41 91 91 91s93-41 93-91z m261-85l-125 0c0 174-140 323-315 323l0 119c231 0 440-164 440-441z m259 0l-136 0c0 300-261 561-563 561l0 129c370 0 699-281 699-690z" horiz-adv-x="704" />
+<glyph glyph-name="twitter" unicode="&#xe801;" d="M290 152l73 0c45 0 80-35 80-79 0-45-35-80-80-80l-79 0c-76 4-148 34-199 85-55 51-85 124-85 201l0 349c0 44 35 79 80 79 44 0 79-35 79-79l0-116 204 0c45 0 80-35 80-80 0-44-35-79-80-79l-204 0 0-74c0-70 55-123 131-128z" horiz-adv-x="443" />
+</font>
+</defs>
+</svg>
