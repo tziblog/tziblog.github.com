@@ -12,3 +12,7 @@ abstract, experimental and sometimes mainstream
 we don't own anything, we don't affiliate with the artists or their labels
 we just want to share musics we like.
 με έναν "πρωτόγονο" τρόπο, έτσι για να τραβάμε ζόρι
+
+
+This blog was made and is updated thoroughly on notepad++ with html and css coding plus some jquery.
+Here is an attempt (for now) to host it on github
