@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>TZiBlog and Sounds</title>
+  <link>https://dl.dropboxusercontent.com/u/154824010/tziblog/index.html</link>
+  <description>music, πειραματικά, suggestions...</description>
+  <image>
+	<url>https://dl.dropboxusercontent.com/u/154824010/tziblog/favicon.png</url>
+	<title>TZiBlog and Sounds</title>
+	<link>https://dl.dropboxusercontent.com/u/154824010/tziblog/index.html</link>
+	<description>music, πειραματικά, suggestions...</description>
+  </image>
+  
+  <item>
+    <title>The Black Dog - Music For Real Airports</title>
+    <description>An ambient album with compositions strong with emotion sometimes positive and sometimes dark. Rhythm and beat accompany many arrangements and each track has a certain place in the wholeness of this concept album</description>
+    <link>https://dl.dropboxusercontent.com/u/154824010/tziblog/articles/real_airports.html</link>
+    <pubDate>Thu, 31 Oct 2013 00:00:01 +0000</pubDate>    
+  </item>
+  
+  <item>
+    <title>Ocoeur - Light As A Feather </title>
+    <description>Compositions that crosses techno, electro-acoustic, down-tempo and impose the IDM veil over the album also manage to deviate from it.</description>
+    <link>https://dl.dropboxusercontent.com/u/154824010/tziblog/articles/ocoeur_light.html</link>
+    <pubDate>Thu, 17 Oct 2013 00:00:01 +0000</pubDate>    
+  </item>
+  
+  <item>
+    <title>Soul Oddity - Tone Capsule   </title>
+    <description>Experimental electro - techno from the deep 90s ( apparently). We have rhythmic challenges with analogue and monotone (mostly) bubbles and bleeps creatively mixing together.</description>
+    <link>https://dl.dropboxusercontent.com/u/154824010/tziblog/articles/tone_capsule.html</link>
+    <pubDate>Wed, 2 Oct 2013 00:00:01 +0000</pubDate>    
+  </item>
+  
+  <item>
+    <title>Ab Ovo - Mouvements  </title>
+    <description>Soundscapes and power (a little soft) rhythms, medolic-utted  sequences with a down-tempo (ish) feel</description>
+    <link>https://dl.dropboxusercontent.com/u/154824010/tziblog/articles/mouvements.html</link>
+    <pubDate>Mon, 16 Sep 2013 00:00:01 +0000</pubDate>    
+  </item>
+  
+  <item>
+    <title>Mnemonic - Monokultur  </title>
+    <description>melodic keyboard dominate most tracks' structure and hard and complex beats build impressive rhythms. a dark, heavy yet emotional sound</description>
+    <link>https://dl.dropboxusercontent.com/u/154824010/tziblog/articles/monokultur.html</link>
+    <pubDate>Thu, 29 Aug 2013 00:00:01 +0000</pubDate>    
+  </item>
+  
+  <item>
+    <title>Ginormous - the sound of love impermanent </title>
+    <description>an ambient mainly album covering modern classical and "idm" aspects that becomes lively enough to slightly bend the field of electronica</description>
+    <link>https://dl.dropboxusercontent.com/u/154824010/tziblog/articles/ginormous_thesound.html</link>
+    <pubDate>Mon, 5 Aug 2013 00:00:01 +0000</pubDate>    
+  </item>
+  
+   <item>
+    <title>Frank Riggio - Noise Thinking EP</title>
+    <description>Breakbeat rhythm alongside creative use of samples. "Noise thinking" gets into a dark and aggressive theme all the way out</description>
+    <link>https://dl.dropboxusercontent.com/u/154824010/tziblog/articles/riggio_noise.html</link>
+    <pubDate>Sat, 3 Aug 2013 00:00:01 +0000</pubDate>    
+  </item>
+  
+  <item>
+    <title>Beefcake - Drei</title>
+    <description>Ill, trip hop, break, experimental idm and orchestral stuff forging of beautiful compositions</description>
+    <link>https://dl.dropboxusercontent.com/u/154824010/tziblog/articles/b_drei.html</link>
+    <pubDate>Thu, 1 Aug 2013 00:00:01 +0000</pubDate>    
+  </item>
+  
+</channel>
+
+</rss>

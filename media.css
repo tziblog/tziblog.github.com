@@ -1,0 +1,347 @@
+@media only screen and (max-device-width:480px)
+{
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	
+	.img
+		{
+		max-width:98%;
+		margin:0.2em 0.05em;
+		}
+		
+	iframe
+	{
+		width:90%;	
+	}
+	
+	.mainBox
+	{
+		float:none;
+		width:100%;
+		overflow: auto;
+		margin-top:1em;
+	}
+	
+	#topbar
+	{
+		height:6em;
+		text-align:center;
+		
+	}
+	
+	#topWrap
+	{
+		padding:0;
+	}
+	
+	a#logo
+	{
+		display:block;
+		float:none;
+		height:2em;
+		
+		
+	}
+	a#logo img
+	{
+		height:2em;
+		margin:.25em 0 .5em;
+	}
+	
+	#sitename
+	{
+		font-size:.9em;
+		margin:0.25em .25em 0;
+		float:none;
+		line-height:1.1em;
+	}
+	
+	#slogan
+	{
+		display:none;
+	}
+	
+	#topMenu 
+	{
+		display:block;
+		text-align:center;
+		margin:.25em 0 0 0;
+	}
+	#topMenu li
+	{
+		display:inline-block;
+	}
+	
+	#topMenu a
+	{
+		line-height:2em;
+		float:none;
+	}
+	
+	.firstRegion
+	{
+		margin:6em 0 0;
+	}
+	
+	.aboutText
+	{
+		padding:.5em;
+	}
+	
+	.bottomMenu a
+	{
+		width:4em;
+		height:4em;		
+		line-height:4em;
+		font-size:1em;
+	}
+	
+	div.featImg
+	{
+		width:auto;
+	}
+	
+	.entrySum
+	{
+		display:none;
+	}
+	
+	#backtotop
+	{
+		display:none;
+	}
+}
+
+@media only screen and (max-width:480px)
+{
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	.img
+		{
+		max-width:99%;
+		margin:0.2em 0.05em;
+		}
+		
+	iframe
+	{
+		width:90%;	
+	}
+		
+	.mainBox
+	{
+		float:none;
+		width:100%;
+		overflow: auto;
+		margin-top:1em;
+		
+	}
+	
+	#topbar
+	{
+		height:6em;
+		text-align:center;
+		
+	}
+	
+	#topWrap
+	{
+		padding:0;
+	}
+	
+	a#logo
+	{
+		display:block;
+		float:none;
+		height:2em;
+		
+		
+	}
+	a#logo img
+	{
+		height:2em;
+		margin:.25em 0 .5em;
+	}
+	
+	#sitename
+	{
+		font-size:.9em;
+		margin:0.25em .25em 0;
+		float:none;
+		line-height:1.1em;
+	}
+	
+	#slogan
+	{
+		display:none;
+	}
+	
+	#topMenu 
+	{
+		display:block;
+		text-align:center;
+		margin:.25em 0 0 0;
+	}
+	#topMenu li
+	{
+		display:inline-block;
+	}
+	
+	#topMenu a
+	{
+		line-height:2em;
+		float:none;
+	}
+	
+	.firstRegion
+	{
+		margin:6em 0 0;
+	}
+	
+	.aboutText
+	{
+		padding:.5em;
+	}
+	
+	.bottomMenu a
+	{
+		width:4em;
+		height:4em;		
+		line-height:4em;
+		font-size:1em;
+	}
+	
+	div.featImg
+	{
+		width:auto;
+	}
+	.featText
+	{
+		padding:0 .4em;
+	}
+	
+	li.entrySum
+	{
+		display:none;
+	}
+	
+	#backtotop
+	{
+		display:none;
+	}
+		
+	
+}
+
+@media only screen and (max-width:800px) and (min-width:481px)
+{
+	html 
+	{
+		-webkit-text-size-adjust: none;
+	}
+	
+	#topbar
+	{
+		height:6em;
+		text-align:center;
+		
+	}
+	
+	.firstRegion
+	{
+		margin:6em 0 0;
+	}
+	
+	#topWrap
+	{
+		padding:5px;
+	}
+	
+	a#logo
+	{
+		
+		height:2em;
+		
+		
+	}
+	
+	a#logo img
+	{
+		height:2em;
+		margin:.25em;
+	}
+	
+	#sitename
+	{
+		font-size:1em;
+		margin:0.25em;
+		
+		line-height:2em;
+	}
+	
+	#slogan
+	{
+		font-size:1em;
+		margin:0.25em;
+		
+		line-height:2em;
+	}
+	
+	#topMenu 
+	{
+		display:block;
+		text-align:center;
+		margin:.25em 0 0 0;
+		clear:both;
+	}
+	#topMenu li
+	{
+		display:inline-block;
+	}
+	
+	#topMenu a
+	{
+		line-height:2.5em;
+		float:none;
+	}
+	
+	div.featImg
+	{
+		width:auto
+	}
+}
+
+@media only screen and (max-width:650px)
+{
+
+	.mainBox
+	{
+		float:none;
+		width:100%;
+		overflow: auto;
+		margin-top:1em;
+		
+	}
+	
+	iframe
+	{
+		width:90%;
+	}
+
+}
+
+
+
+@media only screen and (max-width:560px)
+{
+	li.entrySum
+	{
+		display:none;
+	}
+	
+	.articleEntry  li
+	{
+		width:29%;
+	}
+}
