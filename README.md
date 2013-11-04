@@ -15,4 +15,4 @@ we just want to share musics we like.
 
 
 This blog was made and is updated thoroughly on notepad++ with html and css coding plus some jquery.
-Here is an attempt (for now) to host it on github
+Here is an attempt (hopefully successfull) to host it on github
