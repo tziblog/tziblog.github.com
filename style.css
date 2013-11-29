@@ -566,7 +566,7 @@ a.articleEntry:hover
 
 .bottomRegion
 {
-	background: #14293D;
+	background: #456789;
 	min-height:300px;
 	margin-top:-2px;
 }
@@ -617,18 +617,44 @@ a.articleEntry:hover
 	margin-left:-1em;
 	text-shadow:.0.15em .15em #555555;
 	z-index:-1;
-	box-shadow:.0 .3em .1em #CCCCCC;	
+	box-shadow:0 .6em .2em -.4em rgba(0,0,0,.6);
+	-moz-transition: bottom 0.7s ease 0.1s;	
 	-webkit-transition: bottom 0.7s ease 0.1s;
-	transition: bottom 0.7s ease 0.1s;
-	
+	-o-transition: bottom 0.7s ease 0.1s;	
+	transition: bottom 0.7s ease 0.1s;	
 	
 }
 
+@-webkit-keyframes rotate 
+	{ from 
+		{
+			-moz-transform: rotate(0deg);
+			-webkit-transform: rotate(0deg);
+			-o-transform: rotate(0deg);
+			transform: rotate(0deg);
+			box-shadow:none;
+		}
+	  to
+		
+		{
+			-moz-transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			-o-transform: rotate(360deg);
+			transform: rotate(360deg);
+			box-shadow:0 .6em .2em -.4em rgba(255,255,255,.6);
+		}
+	}
+	
+	
 .bottomMenu a:hover
 {
 	bottom:.5em;
 	z-index:999;
-	
+	-webkit-animation: rotate 1s forwards;
+    -moz-animation: rotate 1s forwards;
+    -o-animation: rotate 1s forwards;
+    animation: rotate 1s forwards;
+	box-shadow:0 .6em .2em -.4em rgba(255,255,255,.6);
 }
 
 a.botArticles
