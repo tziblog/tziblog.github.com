@@ -593,9 +593,11 @@ a.articleEntry:hover
 	text-align:center;
 	margin:2em 0;
 }
+
 .bottomMenu a
 {
 	position:relative;
+	bottom:0;
 	text-decoration:none;
 	color:#000000;
 	font-family: 'Jura', Verdana, sans-serif;
@@ -645,11 +647,91 @@ a.articleEntry:hover
 		}
 	}
 	
+@-moz-keyframes rotate 
+	{ from 
+		{
+			-moz-transform: rotate(0deg);
+			-webkit-transform: rotate(0deg);
+			-o-transform: rotate(0deg);
+			transform: rotate(0deg);
+			box-shadow:none;
+		}
+	  to
+		
+		{
+			-moz-transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			-o-transform: rotate(360deg);
+			transform: rotate(360deg);
+			box-shadow:0 .6em .2em -.4em rgba(255,255,255,.6);
+		}
+	}
+
+@-ms-keyframes rotate 
+	{ from 
+		{
+			-moz-transform: rotate(0deg);
+			-webkit-transform: rotate(0deg);
+			-o-transform: rotate(0deg);
+			transform: rotate(0deg);
+			box-shadow:none;
+		}
+	  to
+		
+		{
+			-moz-transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			-o-transform: rotate(360deg);
+			transform: rotate(360deg);
+			box-shadow:0 .6em .2em -.4em rgba(255,255,255,.6);
+		}
+	}
+
+@-o-keyframes rotate 
+	{ from 
+		{
+			-moz-transform: rotate(0deg);
+			-webkit-transform: rotate(0deg);
+			-o-transform: rotate(0deg);
+			transform: rotate(0deg);
+			box-shadow:none;
+		}
+	  to
+		
+		{
+			-moz-transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			-o-transform: rotate(360deg);
+			transform: rotate(360deg);
+			box-shadow:0 .6em .2em -.4em rgba(255,255,255,.6);
+		}
+	}
+
+@keyframes rotate 
+	{ from 
+		{
+			-moz-transform: rotate(0deg);
+			-webkit-transform: rotate(0deg);
+			-o-transform: rotate(0deg);
+			transform: rotate(0deg);
+			box-shadow:none;
+		}
+	  to
+		
+		{
+			-moz-transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			-o-transform: rotate(360deg);
+			transform: rotate(360deg);
+			box-shadow:0 .6em .2em -.4em rgba(255,255,255,.6);
+		}
+	}
 	
 .bottomMenu a:hover
 {
 	bottom:.5em;
 	z-index:999;
+	
 	-webkit-animation: rotate 1s forwards;
     -moz-animation: rotate 1s forwards;
     -o-animation: rotate 1s forwards;
