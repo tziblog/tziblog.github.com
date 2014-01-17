@@ -23,3 +23,9 @@ $(document).ready(function(){
 	});
 	
 });
+
+$(document).ready(function(){
+
+	$('#copyRight img').before('<span> - 2014<span>');
+
+});
