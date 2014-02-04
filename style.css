@@ -86,7 +86,13 @@ iframe
 	box-shadow:0 0px 8px #CCCCCC;
 }
 
-
+/*  */
+/*  *//*  */
+/*  *//*  *//*  */
+/* topbar */
+/*  *//*  *//*  */
+/*  *//*  */
+/*  */
 
 #topbar
 {
@@ -178,8 +184,7 @@ a#logo img
 	text-decoration:none;
 	text-shadow:0 .15em .25em #000000;
 	line-height:5em;
-	font-size:1em;
-	
+	font-size:1em;	
 	padding:0 .5em;
 	/* border-right:1px solid rgba(0,0,0,.1); */
 	text-align:center;
@@ -199,12 +204,19 @@ a#logo img
 }
 
 #topMenu a.current
-{
-		
+{		
 	text-decoration:overline;
 	cursor:default;	
 	background:#5C85AD;
 }
+
+/*  */
+/*  *//*  */
+/*  *//*  *//*  */
+/* main */
+/*  *//*  *//*  */
+/*  *//*  */
+/*  */
 
 .firstRegion
 {
@@ -217,15 +229,13 @@ a#logo img
 	background: -o-linear-gradient(top,  rgba(194,209,224,1) 0%,rgba(194,209,224,1) 72%,rgba(255,202,202,1) 100%);
 	background: -ms-linear-gradient(top,  rgba(194,209,224,1) 0%,rgba(194,209,224,1) 72%,rgba(255,202,202,1) 100%);
 	background: linear-gradient(to bottom,  rgba(194,209,224,1) 0%,rgba(194,209,224,1) 72%,rgba(255,202,202,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d1e0', endColorstr='#ffcaca',GradientType=0 );
-	overflow:auto;
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d1e0', endColorstr='#ffcaca',GradientType=0 );
 	
 }
 
 .regWrap
 {
-	max-width:960px;
-	
+	max-width:960px;	
 	background:rgba(255,255,255,.9);
 	margin:0 auto;
 	overflow:auto;
@@ -339,21 +349,17 @@ a#logo img
 	margin:1.5em auto .3em;
 	height:.15em;
 	overflow:hidden;
-	text-align:center;
-	
-	
+	text-align:center;		
 }
+
 #share
 {
-	
-	
-	margin:4em 0 0;
-	
+		
+	margin:4em 0 0;	
 	text-align:right;
-	height:auto;
-	
-	
+	height:auto;	
 }
+
 #share ul
 {
 	list-style:none;
@@ -366,8 +372,7 @@ a#logo img
 #share li
 {
 	display:inline-block;
-	vertical-align:middle;
-	
+	vertical-align:middle;	
 }
 
 #share li a
@@ -386,33 +391,33 @@ a#logo img
 }
 
 #share li a.tweetit
-{
-	
+{	
 	background:url('images/share_icons.png') 0 0;
 	margin:0 .5em 0 .5em;
 }
 
 #share li a.fbsend
 {
-	
-	background:url('images/share_icons.png') 0 -30px;
-	
+	background:url('images/share_icons.png') 0 -30px;	
 }
 
 
 
 .breakLine:after
-{
-	
+{	
 	border:.1em solid #666666;
 	border-radius:2em;
 	margin:1.5em auto .3em;
 	content:"----";
-	background:#666666;
-	
+	background:#666666;	
 }
-
+				/*  */
+				/*  *//*  */
+				/*  *//*  *//*  */
 				/* articles list */
+				/*  *//*  *//*  */
+				/*  *//*  */
+				/*  */
 
 .articleList h2
 {
@@ -441,12 +446,6 @@ a.articleEntry:hover
 	background: -ms-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(151,194,229,0.18) 37%,rgba(171,201,227,0.48) 67%,rgba(194,209,224,1) 100%);
 	background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(151,194,229,0.18) 37%,rgba(171,201,227,0.48) 67%,rgba(194,209,224,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#c2d1e0',GradientType=0 );
-
-
-
-
-
-
 }
 
 
@@ -454,22 +453,19 @@ a.articleEntry:hover
 {
 	padding:0;
 	margin:0 .5em;
-	list-style:none;
-	
+	list-style:none;	
 }
 
 .articleEntry  li
 {
 	display:inline-block;
 	text-align:center;
-	vertical-align:middle;
-	
+	vertical-align:middle;	
 }
 
 .entryImage
 {
-	width:20%;
-	
+	width:20%;	
 }
 
 .entryImage img
@@ -482,8 +478,7 @@ a.articleEntry:hover
 {
 	width:30%;
 	font-size:95%;
-	font-family: 'Jura', Verdana, sans-serif;
-	
+	font-family: 'Jura', Verdana, sans-serif;	
 }
 
 .entryTitle span
@@ -509,10 +504,8 @@ a.articleEntry:hover
 .secRegion
 {	
 	margin-top:-2px;
-	background:#FFCACA;
-	
+	background:#FFCACA;	
 }
-
 
 
 #boxed
@@ -563,6 +556,14 @@ a.articleEntry:hover
 {
 	margin:1em 0;
 }
+
+/*  */
+/*  *//*  */
+/*  *//*  *//*  */
+/* bottom */
+/*  *//*  *//*  */
+/*  *//*  */
+/*  */
 
 .bottomRegion
 {
@@ -742,31 +743,22 @@ a.articleEntry:hover
 a.botArticles
 {
 	margin-left:0;
-	z-index:999;
-	
-
-
+	z-index:999;	
 }
 
 a.botAbout
-{
-	
-	z-index:998;
-	
+{	
+	z-index:998;	
 }
 
 a.botrss
-{
-	
-	z-index:997;
-	
+{	
+	z-index:997;	
 }
 
 a.botTwitter
-{
-	
-	z-index:996;
-	
+{	
+	z-index:996;	
 }
 
 #copyRight
