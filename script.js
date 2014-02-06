@@ -29,3 +29,29 @@ $(document).ready(function(){
 	$('#copyRight img').before('<span> - 2014<span>');
 
 });
+
+$(document).ready(function(){
+	$('a.moreLoaded').hide();
+	$('#loadMore').show();
+	article_size = $('a.moreLoaded').size();
+	x = 6;
+	$('a.moreLoaded').slice( 0, x).show();
+	$('#loadMore').click(function() {
+		if(x + 6 <= article_size){
+            x = x + 6;
+		}  else 
+			x = article_size ;
+		$('a.moreLoaded').slice( 0, x ).show();
+		 if(x == article_size){
+		 	$('#loadMore').text(' All articles were loaded! ').css({"cursor":"default", "animation":"none"});
+			$('#loadMore').mouseover(function() {
+				$(this).css({
+				"background-color": "transparent", 
+				"color":"inherit"
+				});
+			});
+            $('#loadMore').fadeOut(4000);
+			
+		} // end if
+	}); //end click
+}); // end ready 
