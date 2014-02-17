@@ -334,6 +334,30 @@ a#logo img
 	padding-top:2em;
 }
 
+.secRegion div.aboutText a
+{
+	display:inline-block;
+	margin-bottom:2px;
+	padding:5px;
+	border-radius:5px;
+	-webkit-transition:background 1s;
+	-moz-transition:background 1s;
+	-ms-transition:background 1s;
+	-o-transition:background 1s;
+	transition:background 1s;
+}
+
+.secRegion div.aboutText a:last-of-type 
+{
+	margin-bottom:10px;
+}
+
+.secRegion div.aboutText a:hover
+{
+	background:#5C85AD;
+	color:#ffffff;
+}
+
 .secRegion div.aboutText img
 {
 	border:.3em solid #14293D;
