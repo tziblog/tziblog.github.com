@@ -1008,6 +1008,7 @@ a.botTwitter
 	background:#000000;
 	color:#ffffff;
 	border-radius:3px;
+	z-index:99999;
 }
 
 #backtotop:hover
