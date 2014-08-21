@@ -245,8 +245,46 @@
 		margin-left:10px;
 		margin-right:10px;
 	}
+
+	.trackList
+	{
+		width: 100%;
+	}
+
+	.trackList ul li > div:last-child,
+	.trackList ul li > div:first-child
+	{
+		display: none;
+	}
 	
+
+	.trackList ul li > div
+	{
+		padding: 1em 0;
+	}
+	
+	.trackList ul li > div:nth-child(3),
+	.trackList ul li > div:nth-child(4)
+	{
+		width: 40% ;
+	}
+	
+	
+
+	.trackList ul li:not(.listHead) > div:nth-child(2)
+	{
+		padding: 2px;
+		width: 15%;
+		font-size: .8em;
+	}
+
+	.trackList ul li:not(.listHead) > div:nth-child(2)
+	{
+		font-size: .8em;
+	}
 }
+
+
 
 @media only screen and (max-width:800px) and (min-width:481px)
 {
@@ -323,6 +361,38 @@
 	div.featImg
 	{
 		width:auto
+	}
+
+	.trackList
+	{
+		width: 100%;
+	}
+
+	.trackList ul li > div:last-child
+	{
+		display: none;
+	}
+
+	.trackList ul li > div
+	{
+		padding: 1em 0;
+	}
+	
+	.trackList ul li > div:nth-child(3),
+	.trackList ul li > div:nth-child(4)
+	{
+		width: 35% ;
+	}
+	
+	.trackList ul li > div:nth-child(1)
+	{
+		width: 10%;
+	}
+
+	.trackList ul li > div:nth-child(2)
+	{
+		padding: 5px;
+		width: 15%;
 	}
 }
 

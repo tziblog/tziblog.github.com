@@ -574,7 +574,7 @@ a.articleEntry:hover
 
 .articleMore a:hover
 {
-	text-decoration:underline;
+	text-decoration: underline;
 }
 
 
@@ -582,6 +582,124 @@ a.articleEntry:hover
 {
 	margin:1em 0;
 }
+
+.trackList
+{
+	margin: 2em auto 0;
+	width: 95%;
+}
+
+.trackList ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: .9em;
+
+}
+
+.trackList ul li 
+{
+	
+	box-shadow: 0 1px 0px rgba(0,0,0,.05);
+	
+}
+
+.trackList ul li *
+{
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.trackList ul li > div
+{
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: .5em .2em;
+	text-align: center;
+}
+
+
+.trackList ul li.listHead
+{
+	font-weight: bold;
+	box-shadow: 0 1px 0px rgba(0,0,0,.2);
+}
+
+.trackList ul li > div:nth-child(1)
+{
+	width: 5%;
+	font-weight: bold;
+	border-radius: 100%;
+	color: #456789;
+
+}
+
+.trackList ul li:not(.listHead) > div:nth-child(1):after
+{
+	content: ".";
+}
+
+.trackList ul li > div:nth-child(2)
+{
+	width: 20%;
+	font-size: .85em;
+} 
+
+.trackList ul li > div:nth-child(3)
+{
+	width: 20%;
+
+} 
+
+.trackList ul li > div:nth-child(4)
+{
+	width: 26%;
+} 
+
+.trackList ul li > div:nth-child(5)
+{
+	width: 26%;
+} 
+
+.trackList ul li > div span 
+{
+	display: block;
+	font-size: .85em;
+}
+
+.trackList ul li > div span:first-child
+{
+	margin-bottom: 5px;
+}
+
+.trackList ul li > div span:last-child
+{
+	letter-spacing: 2px;
+}
+
+.trackList ul li > div span:first-child:after
+{
+	content: ",";
+}
+
+.trackList ul li:hover:not(.listHead)
+{
+	background: hsla(209.6,33.1%,52%,.1);
+}
+
+.trackList ul li:hover:not(.listHead) > div:nth-child(2)
+{
+	background-color: #5c85ad;
+	color: #fff;
+}
+
+
 
 #errorPage
 {
