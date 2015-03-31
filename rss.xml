@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
   <title>TZiBlog and Sounds</title>
@@ -10,6 +10,13 @@
 	<link>http://tziblog.github.io</link>
 	<description>music, πειραματικά, suggestions...</description>
   </image>
+
+<item>
+    <title>Gridlock – Formless</title>
+    <description>A complex album with intelligent and distorted beat rhythms, soundscapes and shoegaze atmospheric melodies</description>
+    <link>http://tziblog.github.io/articles/gridlock_form.html</link>
+    <pubDate>Tue, 31 Mar 2015 00:00:01 +0000</pubDate>    
+</item>
 
 <item>
     <title>Diaphane – Samdhya</title>

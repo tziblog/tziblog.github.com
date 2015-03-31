@@ -14,3 +14,5 @@ we just want to share musics we like.
 με έναν "πρωτόγονο" τρόπο, έτσι για να τραβάμε ζόρι
 
 
+This blog was made and is updated thoroughly on notepad++ with html and css coding plus some jquery.
+Here is an attempt (hopefully successfull) to host it on github
